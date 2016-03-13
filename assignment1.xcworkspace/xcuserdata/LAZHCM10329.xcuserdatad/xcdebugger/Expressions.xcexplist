@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.(fetchMovies(ViewController) -&gt; () -&gt; ()).(closure #1):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "json[&quot;movies&quot;].value">
+            </PersistentString>
+            <PersistentString
+               value = "json[&quot;movies&quot;][0][&quot;alternate_ids&quot;][&quot;imdb&quot;].string">
+            </PersistentString>
+            <PersistentString
+               value = "movies[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ATTableView.tableView(UITableView, cellForRowAtIndexPath : NSIndexPath) -&gt; UITableViewCell:ATTableView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.data[indexPath.row][&quot;title&quot;].string">
+            </PersistentString>
+            <PersistentString
+               value = "cell.titleText">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.(fetchMovies(ViewController) -&gt; () -&gt; ()).(closure #1).(closure #1):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "json[&quot;results&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

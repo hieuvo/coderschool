@@ -1,0 +1,32 @@
+ [
+  {
+  "type": 0,
+  "name": "Event 1",
+  "imageName": "bg_5",
+  "rating": 4,
+  "startDate": "20161221",
+  "endateDate": "20171221",
+  },
+  {
+  "type": 0,
+  "name": "Event 2",
+  "imageName": "bg_3",
+  "rating": 5,
+  "startDate": "20161116",
+  "endateDate": "20171116",
+  },
+  {
+  "type": 1,
+  "name": "Tip Tip Tip 1",
+  },
+  {
+  "type": 1,
+  "name": "Tip Tip Tip 2",
+  },
+  {
+  "type": 2,
+  "image": "bg_3",
+  "title": "film 1 title",
+  "description": "description film"
+  },
+  ]
