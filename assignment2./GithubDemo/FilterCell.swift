@@ -18,8 +18,4 @@ class FilterCell: UITableViewCell {
     func initData(data: [String: String]) {
         self.data = data
     }
-    
-    func getHeight() -> CGFloat {
-        return self.bounds.size.height
-    }
 }

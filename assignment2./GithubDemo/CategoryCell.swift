@@ -22,7 +22,7 @@ class CategoryCell: FilterCell, UITableViewDataSource, UITableViewDelegate, Filt
         tableView.delegate = self
         tableView.dataSource = self
         tableView.registerNib(UINib(nibName: "SwitchCell", bundle: nil), forCellReuseIdentifier: "switchCell")
-        adjustTableView()
+//        adjustTableView()
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -49,14 +49,13 @@ class CategoryCell: FilterCell, UITableViewDataSource, UITableViewDelegate, Filt
             cell.onSwitch.on = switchStates[categories[indexPath.row]["code"]!] ?? false
         }
         
-        
         return cell
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         if indexPath.row == maxRows {
             maxRows = max(maxRows + 4, categories.count)
-            adjustTableView()
+//            adjustTableView()
         }
     }
     

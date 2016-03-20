@@ -62,8 +62,10 @@ class YelpResultsViewController: UIViewController, UITableViewDelegate, UITableV
             categories: categories,
             deals: deal,
             completion: { (businesses: [Business]!, error: NSError!) -> Void in
-                self.businesses = businesses
-                self.tableView.reloadData()
+                if businesses != nil {
+                    self.businesses = businesses
+                    self.tableView.reloadData()
+                }
                 MBProgressHUD.hideAllHUDsForView(self.view, animated: true)
             }
         )
