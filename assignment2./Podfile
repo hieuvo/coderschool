@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+inhibit_all_warnings!
+use_frameworks!
+pod 'AFNetworking', '~> 2.5'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'HCSStarRatingView'
+pod 'SwiftyJSON', '~> 2.3.2'
+pod 'BDBOAuth1Manager'
